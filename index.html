@@ -17,30 +17,37 @@
                     <h2>Custom shows</h2>
                 </div>
                 <div class="title-buttons direction-col">
-                    <button class="help-button" type="button" id="help-btn" value="help">?</button>
-                    <button class="exit-button" type="button" id="exit-btn" value="exit">X</button>
+                    <button class="help-button" type="button" id="help-btn" name="help-btn" value="help">?</button>
+                    <button class="exit-button" type="button" id="exit-btn" name="exit-btn" value="exit">X</button>
                 </div>
             </header>
             <div class="middle-container flex-item direction-col width-size">
                 <div class="inner-container flex-item conatiner-height">
                     <div class="custom-shows">
                         <h3>C<span class="underlined" accesskey="u">u</span>stom Shows:</h3>
-                        <textarea class="text-box width-size conatiner-height" rows="5" cols="50" name="description"></textarea>
+                        <textarea class="text-box width-size conatiner-height" rows="5" cols="50"
+                            name="description"></textarea>
 
                     </div>
                     <div class="buttons flex-item direction-col flex-last">
-                        <button type="buttton" class=" btn new-btn" value="new" accesskey="n"><span class="underlined" >N</span>ew</button>
-                        <button type="buttton" class="btn" value="edit" disabled accesskey="e"><span class="underlined">E</span>dit</button>
-                        <button type="buttton" class="btn" value="remove" disabled accesskey="r"><span class="underlined">R</span>emove</button>
-                        <button type="buttton" class="btn" value="copy" disabled accesskey="y">Cop<span class="underlined">y</span></button>
+                        <button type="buttton" class=" btn new-btn" id="new-button" name="new-button" value="new" accesskey="n"><span
+                                class="underlined">N</span>ew</button>
+                        <button type="buttton" class="btn" value="edit" id="edit-button" name="edit-button" disabled accesskey="e"><span
+                                class="underlined">E</span>dit</button>
+                        <button type="buttton" class="btn" value="remove" id="remove-button" name="remove-button" disabled accesskey="r"><span
+                                class="underlined">R</span>emove</button>
+                        <button type="buttton" class="btn" value="copy" id="copy-button" name="copy-button" disabled accesskey="y">Cop<span
+                                class="underlined">y</span></button>
                     </div>
                 </div>
                 <footer class="footer flex-item">
                     <div class="closebtn-div flex-item direction-col flex-last">
-                        <button type="buttton" class=" btn close-btn" value="close" accesskey="c"><span class="underlined">C</span>lose</button>
+                        <button type="buttton" class=" btn close-btn" id="close-button" name="close-button" value="close" accesskey="c"><span
+                                class="underlined">C</span>lose</button>
                     </div>
                     <div class="showbtn-div flex-item direction-col flex-last">
-                        <button type="buttton" class="btn show-btn" value="show" disabled accesskey="s"><span class="underlined">S</span>how</button>
+                        <button type="buttton" class="btn show-btn" value="show" id="show-button" name="show-button" disabled accesskey="s"><span
+                                class="underlined">S</span>how</button>
                     </div>
                 </footer>
             </div>
