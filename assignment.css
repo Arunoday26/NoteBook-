@@ -1,8 +1,8 @@
 *,
 *:before,
 *:after {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .radius-border {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0 0;
 }
 
 .outer-container {
@@ -46,7 +46,7 @@
 
 .header {
   height: 15%;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 10px 8px 5px 8px;
   background-image: linear-gradient(
     #3498ff 5%,
@@ -64,7 +64,6 @@
 .help-button,
 .exit-button {
   width: 25px;
-  color: white;
   height: 25px;
   text-align: center;
   font-weight: bold;
@@ -74,19 +73,19 @@
 
 .exit-button {
   background-color: #ff0000;
-  box-shadow: inset 0px 0px 5px #8f0000;
+  box-shadow: inset 0 0 5px #8f0000;
 }
 
 .help-button {
   background: #3498ff;
-  box-shadow: inset 0px 0px 5px #003cd3;
+  box-shadow: inset 0 0 5px #003cd3;
 }
 
 .middle-container {
   position: absolute;
   height: 85%;
   border: 5px solid #0055e7;
-  border-top: 0px;
+  border-top: 0;
   background: #efebde;
 }
 
@@ -162,5 +161,5 @@
 }
 
 .closebtn-div {
-  margin: 10px 0px 10px 10px;
+  margin: 10px 0 10px 10px;
 }
